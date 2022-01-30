@@ -1,0 +1,15 @@
+{
+  "name": "signalk-detect-outliers",
+  "version": "1.0.0",
+  "description": "Check new sensor readings before they go into sk, if value deemed corrupt then set value to null or drop delta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "chris0348",
+  "license": "ISC",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-utility"
+  ]
+}
