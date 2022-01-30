@@ -1,6 +1,6 @@
 # signalk-detect-outliers
 
-This plugin filter the incoming delta stream for certain, pertinent issues with data coming in from proprietary sensors.
+This plugin filters the incoming delta stream for certain, pertinent issues with data coming in from proprietary sensors.
 
 Certain sensors tend to occasionally send corrupt data samples (e.g. depth sounders, paddle logs, wind speed sensors, GPS). Examples for such corrupt data samples are reported depths of a few thousand meters, huge values for speed through water, same for apparent wind speed where also samples close to zero are observed regularly. For data from GSP sensors, corrupt samples contain e.g. NaN or null for the position. Also, a position of [0.0, 0.0] as sometimes reported during startup of a GPS unit is not considered as valid position.
 
